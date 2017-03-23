@@ -1,0 +1,74 @@
+<h1> sneakers </h1>
+<p id="adidas">        adidas <p>
+<p id="reebok">       reebok</p>
+<p id="nike">       nike</p>
+<p id="puma">       puma</p>
+
+<style>
+body {
+  background: linear-gradient(black,white);
+}
+
+  h1 {  
+    background: lightblue;
+    border-style:dotted;
+    border-color:grey;
+    color:white;
+    transition: background 2s;
+  }
+  p{
+      background: white;
+      width:50%;
+      margin: auto;
+      margin-bottom:50px;
+  }
+  
+  div {
+       width:50px;
+       height: auto;
+  }     
+       img {
+           width:145px;
+           height:135px;
+       }
+       
+       h1:hover {
+         text-align:right;
+         background-color: red;
+}
+  
+  
+</style>
+
+<a href="http://www.adidas.com/us/">
+   <img src="http://scene7.zumiez.com/is/image/zumiez/pdp_hero/adidas-Superstar-White-%26-Black-Womens-Shoes-_261950.jpg">
+</a>
+
+<a href="http://us.puma.com/">
+<img src="http://akns-images.eonline.com/eol_images/Entire_Site/2015713/rs_560x415-150813091142-560-puma-sneakers-reese-witherspoon.jpg"></a>
+
+<a href="http://www.nike.com/us/en_us/?ref=https%253A%252F%252Fwww.google.com%252F">
+<img src="http://s7d2.scene7.com/is/image/DSWShoes/330315_100_ss_01?$3wide$"></a>
+<a href="http://www.reebok.com/en-US/">
+<img src="http://c.shld.net/rpx/i/s/i/spin/0/prod_1932178312??heiu003d64u0026widu003d64u0026qltu003d50">
+</a>
+<img src="http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=126010789">
+<img src="http://dtlr.com/media/catalog/product/cache/2/small_image/420x/9df78eab33525d08d6e5fb8d27136e95/3/6/364661_01-White_Black__1.jpg">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#adidas").click(function(){
+        alert("Adolf Dassler was the founder of the German sportswear company Adidas.");
+    });
+    $("#reebok").click(function(){
+        alert("In 1895, Joseph William Foster founded reebok at the age of 14 .");
+    });
+    $("#nike").click(function(){
+        alert("Phil Knight and his coach Bill Bowerman founded nike in January 1964.");
+    });
+    $("#puma").click(function(){
+        alert("Rudolf Dassler is the founder of Puma.");
+    });
+});
+</script>
